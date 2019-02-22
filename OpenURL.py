@@ -1,6 +1,10 @@
 import webbrowser
 import time
-socialMedia =["www.youtube.com", "www.facebook.com","www.toi.com"]
+socialMedia =["www.google.com","www.youtube.com", "www.facebook.com",]
+
+f = open("myfile.txt", "a")
+f.write("Adding more content")
+f.close()
 
 def open_urls(Urls):
 	for i in Urls:
@@ -11,4 +15,4 @@ def main():
 	
 main()
 
-#Added comment 
+#Added some comments
